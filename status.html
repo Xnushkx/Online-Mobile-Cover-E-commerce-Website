@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="status.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Order Tracking</h2>
+        <form id="trackingForm">
+            <label for="orderNumber">Enter Order ID or Tracking Number:</label>
+            <input type="text" id="orderNumber" name="orderNumber" required>
+            <button type="submit">Track Order</button>
+        </form>
+        <div id="status"></div>
+    </div>
+    <script src="order.js"></script>
+</body>
+</html>
